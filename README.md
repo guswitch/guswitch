@@ -5,3 +5,5 @@
 - NodeJS
 - ReactJS
 - React Native
+
+![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=guswitch&hide=contribs,prs)

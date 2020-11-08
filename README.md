@@ -6,9 +6,5 @@
 - ReactJS
 - React Native
 
-[![LinkedIn](https://raw.githubusercontent.com/guswitch/guswitch/master/soc/li.svg)](www.linkedin.com/in/gustavo-henrique-sampaio-nicolau) 
-[![Twitter](https://raw.githubusercontent.com/guswitch/guswitch/master/soc/tw.svg)](https://twitter.com/guswitch) 
-[![Instagram](https://raw.githubusercontent.com/guswitch/guswitch/master/soc/ig.svg)](https://instagram.com/guswitch)
-
 ![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=guswitch&hide=contribs,prs)
 

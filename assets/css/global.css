@@ -1,0 +1,80 @@
+:root {
+	--blue: #4470a0;
+	--dark-blue: #29345a;
+}
+
+html,
+body {
+	overflow-x: hidden;
+}
+
+body {
+	font-family: 'Almarai', sans-serif;
+	color: #666;
+	background: rgb(255, 255, 255);
+	background: linear-gradient(75deg, rgba(255, 255, 255, 1) 0%, rgba(220, 220, 232, 1) 47%, rgba(255, 255, 255, 1) 100%);
+	font-size: 14px;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	color: #444;
+	position: relative;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: 600
+}
+
+a {
+	color: var(--blue);
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	text-decoration: none
+}
+
+a:hover {
+	text-decoration: underline;
+	color: var(--dark-blue)
+}
+
+a:focus {
+	text-decoration: none
+}
+
+p {
+	line-height: 1.5
+}
+
+.btn,
+a.btn {
+	background: var(--dark-blue);
+	color: #fff;
+	padding: 8px 15px;
+	border-radius: 2px;
+	-moz-background-clip: padding;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4);
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size: 14px;
+	text-decoration: none
+}
+
+.btn:hover,
+a.btn:hover {
+	color: #fff;
+	background: var(--dark-blue);
+	text-decoration: none
+}
+
+.btn:focus,
+a.btn:focus {
+	box-shadow: none
+}

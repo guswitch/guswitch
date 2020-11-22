@@ -1,0 +1,31 @@
+.education-section .item {
+	margin-bottom: 45px
+}
+
+.education-section .item-inner {
+	text-align: center;
+	padding: 0 30px
+}
+
+.education-section .degree {
+	font-size: 18px;
+	color: var(--blue);
+	margin-top: 0;
+	margin-bottom: 0px
+}
+
+.education-section .education-body {
+	font-weight: 500;
+	margin-bottom: 0px;
+	font-size: 16px;
+	font-weight: 300
+}
+
+.education-section .time {
+	color: #8a8a8a;
+	margin-bottom: 15px
+}
+
+.education-section .desc {
+	color: #666
+}

@@ -31,10 +31,6 @@ h6 {
 
 a {
 	color: var(--blue);
-	-webkit-transition: all 0.4s ease-in-out;
-	-moz-transition: all 0.4s ease-in-out;
-	-ms-transition: all 0.4s ease-in-out;
-	-o-transition: all 0.4s ease-in-out;
 	text-decoration: none
 }
 
@@ -77,4 +73,41 @@ a.btn:hover {
 .btn:focus,
 a.btn:focus {
 	box-shadow: none
+}
+
+/* Section style */
+
+.wrapper {
+	padding-top: 60px;
+	padding-bottom: 60px
+}
+
+.section {
+	box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+	padding: 45px;
+	margin-bottom: 45px;
+	-moz-background-clip: padding;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
+	background-color: #fff;
+	border-radius: 7px;
+}
+
+.section:last-child {
+	margin-bottom: 0
+}
+
+.section-title {
+	margin-top: 0;
+	margin-bottom: 45px;
+	font-size: 32px;
+	text-align: center
+}
+
+.section-title .title-icon span {
+	font-size: 2.5rem;
+}
+
+.section-title .title-icon span .icon {
+	color: var(--blue);
 }

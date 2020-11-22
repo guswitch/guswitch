@@ -1,0 +1,55 @@
+.contact-section .intro {
+	position: relative;
+	padding: 30px;
+	padding-left: 190px;
+	font-size: 16px;
+	color: #666
+}
+
+.contact-section .intro .profile-image {
+	border-radius: 7px;
+font-size: 5rem;
+	position: absolute;
+	left: 30px
+}
+
+.contact-section .intro p {
+	margin-bottom: 15px
+}
+
+.contact-section .service-list {
+	margin-left: 30px;
+	margin-bottom: 15px
+}
+
+.contact-section .service-list li {
+	margin-bottom: 15px
+}
+
+.contact-section .service-list .svg-inline--fa {
+	color: var(--blue);
+	margin-right: 5px
+}
+
+.contact-section .social {
+	margin-bottom: 0
+}
+
+.contact-section .social li {
+	margin-right: 10px
+}
+
+.contact-section .social li:last-child {
+	margin-right: 0
+}
+
+.contact-section .social a {
+	display: inline-block;
+	text-align: center;
+	font-size: 24px;
+	color: #8a8a8a
+}
+
+.contact-section .social a:hover {
+	color: var(--blue)
+}

@@ -8,8 +8,8 @@
 }
 
 .education-section .degree {
-	font-size: 18px;
-	color: var(--blue);
+	font-size: 1.3rem;
+	color: var(--bs-blue);
 	margin-top: 0;
 	margin-bottom: 0px
 }
@@ -27,5 +27,8 @@
 }
 
 .education-section .desc {
-	color: #666
+	color: #666;
+	font-size: 1rem;
+	text-align: justify;
 }
+

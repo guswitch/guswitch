@@ -1,6 +1,4 @@
 :root {
-	--blue: #4470a0;
-	--dark-blue: #29345a;
 }
 
 html,
@@ -16,7 +14,7 @@ body {
 	font-size: 14px;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	color: #444;
+	color: var(--bs-dark);
 	position: relative;
 }
 
@@ -30,7 +28,7 @@ h6 {
 }
 
 a {
-	color: var(--blue);
+	color: var(--bs-blue);
 	text-decoration: none
 }
 
@@ -83,15 +81,17 @@ a.btn:focus {
 }
 
 .section {
-	box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+	/* box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14); */
 	padding: 45px;
 	margin-bottom: 45px;
 	-moz-background-clip: padding;
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
-	background-color: #fff;
+	/* background-color: #fff; */
 	border-radius: 7px;
+
 }
+
 
 .section:last-child {
 	margin-bottom: 0
@@ -109,5 +109,11 @@ a.btn:focus {
 }
 
 .section-title .title-icon span .icon {
-	color: var(--blue);
+	color: var(--bs-blue);
+}
+
+.darkmode-toggle {
+	opacity: 1;
+	border-radius: 7px !important;
+	z-index: 200 !important;
 }

@@ -1,5 +1,5 @@
 .timeline {
-	border-left: 3px solid var(--blue);
+	border-left: 3px solid var(--bs-blue);
 	border-bottom-right-radius: 2px;
 	border-top-right-radius: 2px;
 	position: relative;
@@ -29,7 +29,7 @@
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
 	background: #fff;
-	border: 3px solid var(--blue)
+	border: 3px solid var(--bs-blue);
 }
 
 .timeline .item:after {
@@ -44,7 +44,7 @@
 	-moz-background-clip: padding;
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
-	background: var(--blue);
+	background: var(--bs-blue);
 	z-index: 10
 }
 
@@ -78,7 +78,7 @@
 
 .timeline .job-meta .title {
 	font-size: 18px;
-	color: var(--blue);
+	color: var(--bs-blue);
 	max-width: 220px
 }
 
@@ -87,5 +87,6 @@
 }
 
 .timeline .job-desc {
-	color: #666
+	color: #666;
+	font-size: 1rem;
 }

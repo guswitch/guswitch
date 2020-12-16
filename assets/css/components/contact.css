@@ -8,13 +8,17 @@
 
 .contact-section .intro .profile-image {
 	border-radius: 7px;
-font-size: 5rem;
+	font-size: 5rem;
 	position: absolute;
-	left: 30px
+	left: 30px;
+	animation-name: wave-animation;
+	animation-duration: 2.5s;
+	animation-iteration-count: infinite;
+	transform-origin: 70% 70%;
 }
 
 .contact-section .intro p {
-	margin-bottom: 15px
+	margin-top: 20px
 }
 
 .contact-section .service-list {
@@ -27,7 +31,7 @@ font-size: 5rem;
 }
 
 .contact-section .service-list .svg-inline--fa {
-	color: var(--blue);
+	color: var(--bs-blue);
 	margin-right: 5px
 }
 
@@ -39,17 +43,24 @@ font-size: 5rem;
 	margin-right: 10px
 }
 
-.contact-section .social li:last-child {
-	margin-right: 0
-}
-
 .contact-section .social a {
+	padding: 10px 20px;
+	border-radius: 7px;
+	margin-bottom: 10px;
+	border: 1px solid #8a8a8a;
 	display: inline-block;
 	text-align: center;
 	font-size: 24px;
 	color: #8a8a8a
 }
 
-.contact-section .social a:hover {
-	color: var(--blue)
+@keyframes wave-animation {
+	0% {transform: rotate(0.0deg)}
+	10% {transform: rotate(14.0deg)}
+	20% {transform: rotate(-8.0deg)}
+	30% {transform: rotate(14.0deg)}
+	40% {transform: rotate(-4.0deg)}
+	50% {transform: rotate(10.0deg)}
+	60% {transform: rotate(0.0deg)}
+	100% {transform: rotate(0.0deg)}
 }

@@ -102,3 +102,9 @@
 		margin: 0 auto
 	}
 }
+
+@media (max-height: 670px){
+	.header .intro {
+		height: auto;
+	}
+}

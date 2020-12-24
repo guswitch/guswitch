@@ -107,4 +107,7 @@
 	.header .intro {
 		height: auto;
 	}
+	.section {
+		height: auto;
+	}
 }

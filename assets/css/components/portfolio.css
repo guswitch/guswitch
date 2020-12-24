@@ -23,8 +23,8 @@
 }
 
 .portfolio-section .filters .type.active {
-	color: var(--bs-blue);
-	border-bottom: 2px solid var(--bs-blue)
+	color: var(--bs-dark);
+	border-bottom: 2px solid var(--bs-dark)
 }
 
 .portfolio-section .item {
@@ -40,7 +40,7 @@
 }
 
 .portfolio-section .item-inner {
-	background: var(--bs-blue);
+	background: var(--bs-dark);
 	color: #fff;
 	border-radius: 7px;
 	-moz-background-clip: padding;
